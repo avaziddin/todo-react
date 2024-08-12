@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column ;
+
+
+}
+.zagolovka {
+  font-size: 42px;
+}
+
+.formm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.inputtext {
+  width: 321px;
+  height: 42px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 127, 255, 1);
+  outline: none;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.add {
+  width: 155px;
+  height: 47px;
+  top: 151px;
+  left: 951px;
+  gap: 0px;
+  border-radius: 10px ;
+  background-color: rgba(0, 127, 255, 1);
+  color: white;
+  border: 0px;
+
+}
+
+
+
+hr {
+  width: 80%;
+  height: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+
+}
+
+.item {
+  width: 28%;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgba(0, 127, 255, 1) ;
+  padding: 20px 22px;
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  .left{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  margin-bottom: 2%;
+}
+
+.time {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.55);
+
+}
+.items {
+  width: 80%;
+  display: flex;
+  gap: 2%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+}
+
+.subb{
+  width: 40px;
+  border: 0;
+  background: none;
+}
+
+.subb img {
+width: 100%;
+}
